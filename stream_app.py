@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 import whois
 import datetime
 import re
+from warnings import filterwarnings
 
 # --- 1. Load the Saved Model and Feature Names ---
 # IMPORTANT: This app now expects a model trained ONLY on the 9 features listed below.
